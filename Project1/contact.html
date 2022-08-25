@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.101.0">
+    <title>Product example · Bootstrap v5.2</title>
+    <link rel="stylesheet" href="./assets/dist/css/bootstrap.min.css">
+  </head>
+  <body>
+<style>
+  h1{
+    color: rgb(0, 174, 255);
+  }
+  .navbar{
+        background-color: white;
+      }
+      .b-top-color{
+        border-top: solid 2px rgb(0, 140, 255);
+      }
+</style>
+<header class=" sticky-top pb-1">
+    <nav class="navbar navbar-expand-lg navbar-light  shadow-sm" aria-label="Ninth navbar example">
+        <div class="container-xl">
+          <a class="navbar-brand" href="#"> Brand</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07XL" >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <div class="collapse navbar-collapse justify-content-end" id="navbarsExample07XL">
+            <ul class="navbar-nav ">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html#features">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="price.html">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html#about">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">contact us</a>
+              </li>
+            
+            </ul>
+         
+          </div>
+        </div>
+      </nav>
+    
+</header>
+
+<main>
+  <div class="modal modal-signin position-static d-block bg-light py-5" tabindex="-1" role="dialog" id="modalSignin">
+    <div class="modal-dialog" role="document">
+      <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+        <h1 class="fw-normal">Contact us</h1>
+        <p class="fs-5 text-muted">It’s built with default Bootstrap components and utilities with little customization.</p>
+      </div>
+      <div class="b-top-color modal-content rounded-2 shadow">
+        <div class="modal-header p-5 pb-4 border-bottom-0">
+          
+        </div>
+  
+        <div class="modal-body p-5 pt-0">
+          <form class="">
+            <div class=" mb-3">
+              <label for="floatingInput">Name</label>
+              <input type="text" class="form-control rounded-3" id="floatingInput" >
+            </div>
+            <div class=" mb-3">
+              <label for="floatingPassword">Subject</label>
+              <input type="text" class="form-control rounded-3" id="floatingPassword" >
+            </div>
+            <div class=" mb-3">
+              <label for="floatingInput">Email </label>
+              <input type="email" class="form-control rounded-3" id="floatingInput" >
+            </div>
+            <div class=" mb-3">
+              <label for="floatingInput">Message</label>
+              <textarea id="textarea" class="form-control rounded-3"  name="textarea" rows="2" cols="50"></textarea>
+            </div>
+            <button class=" mb-2 btn rounded-3 btn-primary" type="submit">Send</button>
+           
+       
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer class="  bg-dark py-5">
+  <div class="container px-4">
+      <div class="row">
+        <div class="col-6 col-md">
+          <h5 class="text-light">Features</h5>
+          <ul class="list-unstyled  text-small">
+            <li><a class="link-secondary text-decoration-none" href="#">Cool stuff</a></li>
+            <li><a class="link-secondary text-decoration-none" href="#">Random feature</a></li>
+            <li><a class="link-secondary text-decoration-none" href="#">Team feature</a></li>
+            <li><a class="link-secondary text-decoration-none" href="#">Stuff for developers</a></li>
+            <li><a class="link-secondary text-decoration-none" href="#">Another one</a></li>
+            <li><a class="link-secondary text-decoration-none" href="#">Last time</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5 class="text-light">Resources</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="link-secondary text-decoration-none " href="#">Resource name</a></li>
+            <li><a class="link-secondary text-decoration-none" href="#">Resource</a></li>
+            <li><a class="link-secondary text-decoration-none" href="#">Another resource</a></li>
+            <li><a class="link-secondary text-decoration-none" href="#">Final resource</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5 class="text-light">Resources</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="link-secondary text-decoration-none" href="#">Business</a></li>
+            <li><a class="link-secondary text-decoration-none" href="#">Education</a></li>
+            <li><a class="link-secondary text-decoration-none" href="#">Government</a></li>
+            <li><a class="link-secondary text-decoration-none" href="#">Gaming</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5 class="text-light">About</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="link-secondary text-decoration-none" href="#">Team</a></li>
+            <li><a class="link-secondary text-decoration-none" href="#">Locations</a></li>
+            <li><a class="link-secondary text-decoration-none" href="#">Privacy</a></li>
+            <li><a class="link-secondary text-decoration-none" href="#">Terms</a></li>
+          </ul>
+        </div>
+      </div> 
+    </div>
+    <p class="text-light text-center">© 2022 Copyright text.</p>
+  
+</footer>
+
+
+    <script src="./assets/dist/js/bootstrap.bundle.min.js"></script>
+
+      
+  </body>
+</html>
